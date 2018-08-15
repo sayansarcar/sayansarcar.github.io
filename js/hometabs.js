@@ -1,5 +1,3 @@
-// Adapted from http://www.franziroesner.com/
-
 var tabLinks = new Array();
 var contentDivs = new Array();
 
@@ -65,4 +63,3 @@ function getHash( url ) {
     var hashPos = url.lastIndexOf ( '#' );
     return url.substring( hashPos + 1 );
 }
-
